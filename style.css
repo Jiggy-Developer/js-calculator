@@ -1,0 +1,42 @@
+.calc {
+    border: 2px dotted #ff45;
+    height: 40vh;
+    width: 40vw;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: brown;
+    padding: 20px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='491' height='217' preserveAspectRatio='none' viewBox='0 0 491 217'%3e%3cg mask='url(%26quot%3b%23SvgjsMask8757%26quot%3b)' fill='none'%3e%3crect width='491' height='217' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M366.59999999999997 58.5 L298.98999999999995 90.99L287.6906564540854 29.640656454085438z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M400.19 123.45a5.6 5.6 0 1 0 0.03 11.2 5.6 5.6 0 1 0-0.03-11.2zM400.23 139.45a5.6 5.6 0 1 0 0.02 11.2 5.6 5.6 0 1 0-0.02-11.2zM400.27 155.45a5.6 5.6 0 1 0 0.02 11.2 5.6 5.6 0 1 0-0.02-11.2zM400.31 171.45a5.6 5.6 0 1 0 0.02 11.2 5.6 5.6 0 1 0-0.02-11.2z' stroke='%23e73635' stroke-width='2.37' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3ccircle r='29.78645491919245' cx='213.96' cy='181.72' stroke='%23d3b714' stroke-width='1.83'%3e%3c/circle%3e%3crect width='91' height='91' clip-path='url(%26quot%3b%23SvgjsClipPath8758%26quot%3b)' x='-5.29' y='-6.35' fill='url(%23SvgjsPattern8759)' transform='rotate(343.89%2c 40.21%2c 39.15)'%3e%3c/rect%3e%3crect width='126.4' height='126.4' clip-path='url(%26quot%3b%23SvgjsClipPath8760%26quot%3b)' x='237.16' y='-24.57' fill='url(%23SvgjsPattern8761)' transform='rotate(32.38%2c 300.36%2c 38.63)'%3e%3c/rect%3e%3crect width='128.51999999999998' height='128.51999999999998' clip-path='url(%26quot%3b%23SvgjsClipPath8762%26quot%3b)' x='381.54' y='9.38' fill='url(%23SvgjsPattern8763)' transform='rotate(345.8%2c 445.8%2c 73.64)'%3e%3c/rect%3e%3cpath d='M199.82 135.68a5.6 5.6 0 1 0-1.08-11.15 5.6 5.6 0 1 0 1.08 11.15zM198.28 119.75a5.6 5.6 0 1 0-1.08-11.15 5.6 5.6 0 1 0 1.08 11.15zM196.74 103.83a5.6 5.6 0 1 0-1.08-11.15 5.6 5.6 0 1 0 1.08 11.15zM195.2 87.9a5.6 5.6 0 1 0-1.08-11.15 5.6 5.6 0 1 0 1.08 11.15z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M169.16 169.71L157.47 174.94 149.8 164.69 138.11 169.92 130.44 159.67 118.75 164.9 111.08 154.65M171.17 161.97L159.48 167.2 151.81 156.95 140.12 162.18 132.45 151.92 120.76 157.16 113.09 146.9' stroke='%23d3b714' stroke-width='1.43' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3cpath d='M468.68 106.9a5.6 5.6 0 1 0-4.92-10.07 5.6 5.6 0 1 0 4.92 10.07zM461.66 92.52a5.6 5.6 0 1 0-4.92-10.06 5.6 5.6 0 1 0 4.92 10.06zM454.63 78.14a5.6 5.6 0 1 0-4.91-10.06 5.6 5.6 0 1 0 4.91 10.06zM447.61 63.77a5.6 5.6 0 1 0-4.91-10.07 5.6 5.6 0 1 0 4.91 10.07z' stroke='%23037b0b' stroke-width='1' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3crect width='102.8' height='102.8' clip-path='url(%26quot%3b%23SvgjsClipPath8764%26quot%3b)' x='60.79' y='-16.64' fill='url(%23SvgjsPattern8765)' transform='rotate(300.2%2c 112.19%2c 34.76)'%3e%3c/rect%3e%3ccircle r='27.2861145812183' cx='384.07' cy='12.85' fill='%23e73635'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask8757'%3e%3crect width='491' height='217' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='91' height='9.1' patternUnits='userSpaceOnUse' id='SvgjsPattern8759'%3e%3crect width='91' height='4.55' x='0' y='0' fill='%23d3b714'%3e%3c/rect%3e%3crect width='91' height='4.55' x='0' y='4.55' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath8758'%3e%3ccircle r='22.75' cx='40.21' cy='39.15'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='12.64' height='12.64' patternUnits='userSpaceOnUse' id='SvgjsPattern8761'%3e%3cpath d='M0 12.64L6.32 0L12.64 12.64' stroke='%23e73635' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath8760'%3e%3ccircle r='31.6' cx='300.36' cy='38.63'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='9.18' height='9.18' patternUnits='userSpaceOnUse' id='SvgjsPattern8763'%3e%3cpath d='M0 9.18L4.59 0L9.18 9.18' stroke='%23d3b714' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath8762'%3e%3ccircle r='32.129999999999995' cx='445.8' cy='73.64'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='10.28' height='10.28' patternUnits='userSpaceOnUse' id='SvgjsPattern8765'%3e%3cpath d='M5.14 1L5.14 9.28M1 5.14L9.28 5.14' stroke='%23037b0b' fill='none' stroke-width='2.62'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath8764'%3e%3ccircle r='25.7' cx='112.19' cy='34.76'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    
+}
+.button {
+    position: relative;
+    margin-top: 15px;
+}
+#result {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.868) !important;
+    border: 1px solid gray;
+    height: 8vh !important;
+    width: 8vw !important;
+    margin-top: 10px !important;
+    border-radius: 10px !important;
+    text-align: center !important;
+    text-shadow: 5px !important;
+    padding: 10px !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: aquamarine;
+    
+}
+#firstValue {
+    color: rgb(30, 98, 207);
+    font-weight: bold !important;;
+    font-size: 18px;
+}
+#secondValue {
+    color: rgb(30, 98, 207);
+    font-weight: bold !important;;
+    font-size: 18px;
+}
