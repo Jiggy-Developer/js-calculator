@@ -1,5 +1,10 @@
+body {
+    box-sizing: border-box;
+    padding: 10px;
+}
 .calc {
     border: 2px dotted #ff45;
+    border-radius: 20px;
     height: 45vh;
     width: 40vw;
     position: relative;
@@ -18,8 +23,8 @@
     position: relative;
     background-color: rgba(0, 0, 0, 0.868) !important;
     border: 1px solid gray;
-    height: 8vh !important;
-    width: 8vw !important;
+    height: 7vh !important;
+    width: 11vw !important;
     margin-top: 10px !important;
     border-radius: 10px !important;
     text-align: center !important;
