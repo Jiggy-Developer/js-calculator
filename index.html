@@ -32,11 +32,20 @@
             function multiply() {
                 // alert("iam working")
                 var numberOne = document.getElementById("firstValue").value
-                var numberTwo = document.getElementById("secondValue").value
+                var numberTwo = document.getElementById("secondValue").value;
+                if (numberOne == "" || numberTwo == "") {
+                    //  alert("mathError")
+                    var error = "SyntaxError!";
+                    result.innerHTML = error;
+                    result.style.color = "red"
+                } else {
+                    var answer = numberOne * numberTwo;
+                    result.innerHTML = answer;
+                }
                 // alert (numberOne * numberTwo);
                 // result.innerHTML = numberOne * numberTwo
-                var answer = numberOne * numberTwo
-                result.innerHTML = answer;
+                // var answer = numberOne * numberTwo
+                //  result.innerHTML = answer;
                 result.style.backgroundColor = "red"
                 result.style.width = "45px"
                 result.style.height = "30px"
@@ -46,16 +55,34 @@
             function divide() {
                 var numberOne = document.getElementById("firstValue").value
                 var numberTwo = document.getElementById("secondValue").value
+                if (numberOne == "" || numberTwo == "") {
+                    // alert("mathError")
+                    var error = "SyntaxError!";
+                    result.innerHTML = error;
+                    result.style.color = "red"
+                } else {
+                    var answer = numberOne / numberTwo;
+                    result.innerHTML = answer;
+                }
                 // alert(numberOne / numberTwo);
-                var answer = numberOne / numberTwo
-                result.innerHTML = answer;
+                // var answer = numberOne / numberTwo
+                // result.innerHTML = answer;
             }
             function subtract() {
                 var numberOne = document.getElementById("firstValue").value
                 var numberTwo = document.getElementById("secondValue").value
+                if (numberOne == "" || numberTwo == "") {
+                    // alert("mathError")
+                    var error = "SyntaxError!";
+                    result.innerHTML = error;
+                    result.style.color = "red"
+                } else {
+                    var answer = numberOne - numberTwo;
+                    result.innerHTML = answer;
+                }
                 // alert(numberOne - numberTwo);
-                var answer = numberOne - numberTwo
-                result.innerHTML = answer;
+                // var answer = numberOne - numberTwo
+                // result.innerHTML = answer;
             }
             function add() {
                 var numberOne = document.getElementById("firstValue").value
@@ -65,14 +92,14 @@
                 var answer = (Number(numberOne) + Number(numberTwo));
                 result.innerHTML = answer;
             }
-            var twoo = two.innerHTML;
-            if (twoo == 12) {
-                alert("I am even")
-            } else if(twoo == 13) {
-                alert ("I am odd")
-            } else {
-                alert("I am not even nor odd")
-            }
+            // var twoo = two.innerHTML;
+            // if (twoo == 12) {
+            //     alert("I am even")
+            // } else if(twoo == 13) {
+            //     alert ("I am odd")
+            // } else {
+            //     alert("I am not even nor odd")
+            // }
 
             // var numberOne = 1000000;
             // var numberTwo = 1000000;
